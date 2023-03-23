@@ -44,4 +44,4 @@ We need a text editor for the development of the decentralized voting applicatio
  I am going to use [VS Code](https://code.visualstudio.com/) for writing code for both solidity smart contract and javascript application. 
  
  
- Let's start our learning with exploring the basics of the Solidity in the next lesson. 
+ Let's start our learning with exploring the basics of the Solidity in the [next lesson](https://github.com/shakeelzafar3/Voting-dApp-using-Ethereum-and-Solidity/blob/main/4%20-%20Solidity%20Basics.md). 
