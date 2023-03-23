@@ -36,7 +36,7 @@ Comments work the same way as in C++. We can use ```//``` for single-line commen
 ## Control Structure
 In Solidity, we can use the ```if-else``` statement to perform conditional checks. Here's the basic syntax:
 
-```
+```solidity
 if (condition) {
 // code block
 }
@@ -49,7 +49,7 @@ else {
 
 We can also use a ```while``` loop to repeat code until a condition is met:
 
-```
+```solidity
 while (condition) {
 // code block
 }
@@ -57,7 +57,7 @@ while (condition) {
 
 Similarly, we can use a ```for``` loop to repeat code for a specific number of times:
 
-```
+```solidity
 for (initialization; condition; iteration) {
 // code block
 }
@@ -67,7 +67,7 @@ for (initialization; condition; iteration) {
 
 We can declare functions in Solidity using the ```function``` keyword. Here's the basic syntax:
 
-```
+```solidity
 function functionName(parameters) visibilitySpecifier returns (returnType) {
 // code block
 }
