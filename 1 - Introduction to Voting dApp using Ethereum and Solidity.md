@@ -11,4 +11,4 @@ We will also cover following features of the dApp:
 - Preventing users from voting after the voting period has ended
 - Tallying the results and displaying them for all to see
 
-Let's jump into the basics of the environment and the prerequisites in the next lesson. 
+Let's jump into the basics of the environment and the prerequisites in the [next lesson](https://github.com/shakeelzafar3/Voting-dApp-using-Ethereum-and-Solidity/blob/main/2%20-%20About%20the%20tutorial.md). 
