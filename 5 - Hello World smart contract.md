@@ -28,3 +28,5 @@ Let's break down what this contract does:
 - Since `message` is a public variable, it automatically generates a `message()` function that can be used to read its value.
 
 So, this contract is basically a simple "Hello World" program where you can set a message and read it. When the contract is deployed, it takes an initial message as input and stores it in the `message` variable. You can then change the message using the `setMessage` function and read the current message using the `message()` function.
+
+Let's finish this introductory stuff and jump to create our voting app and work on that in [next lesson](https://github.com/shakeelzafar3/Voting-dApp-using-Ethereum-and-Solidity/blob/main/6%20-%20Creating%20the%20dApp.md).
