@@ -12,3 +12,6 @@ By the end of this tutorial, you will have:
 - Knowledge of how to deploy a decentralized application on the Ethereum test network.
 - The ability to test a decentralized application using Ganache and Metamask.
 - An understanding of how to build decentralized applications that can be used for voting and other use cases.
+
+
+Let's jump into the dependecies [lesson](https://github.com/shakeelzafar3/Voting-dApp-using-Ethereum-and-Solidity/blob/main/3%20-%20Installing%20Dependencies.md) we need to install and start our development. 
