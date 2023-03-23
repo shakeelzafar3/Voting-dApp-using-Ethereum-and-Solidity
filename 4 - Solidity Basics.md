@@ -81,3 +81,6 @@ Solidity also supports access modifiers, which determine how functions behave an
 - ```pure```
 - ```view```
 - ```payable```
+
+
+Now we are ready to do hands on a hello world smart contract, so, let's jump to the [upcoming lesson](https://github.com/shakeelzafar3/Voting-dApp-using-Ethereum-and-Solidity/blob/main/5%20-%20Hello%20World%20smart%20contract.md). 
