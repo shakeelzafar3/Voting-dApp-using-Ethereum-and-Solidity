@@ -24,3 +24,7 @@ Let's see what the pet shop box gave us:
 - **truffle.js file:** This is the main configuration file for our Truffle project.
 
 Now let's start writing our smart contract! This smart contract will contain all the business logic of our dApp. It will be in charge of reading from and writing to the Ethereum blockchain. It will allow us to list the candidates that will run in the election and keep track of all the votes and voters. It will also govern all of the rules of the election, like enforcing accounts to only vote once. From the root of your project, go ahead and create a new contract file in the contracts directory like this:
+
+```bash
+touch contracts/Voting.sol
+```
