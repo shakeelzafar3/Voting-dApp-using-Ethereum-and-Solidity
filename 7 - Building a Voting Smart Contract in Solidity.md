@@ -3,7 +3,7 @@ In this tutorial, we'll be walking through the steps of building a simple voting
 ## Step 1: Setting up the Contract
 The first thing we need to do is set up our contract. We'll start by defining our contract and setting up some basic variables:
 ```solidity
-pragma solidity ^0.8.0;
+pragma solidity ^0.5.16;
 
 contract Voting {
     address public owner;
@@ -24,7 +24,7 @@ We've also set up a mapping that will allow us to keep track of which addresses 
 Next, we'll set up the constructor for our contract. The constructor is a special function that gets called when the contract is first created. In our constructor, we'll set some initial values for our variables:
 
 ```solidity
-constructor(uint _duration) {
+constructor(uint _duration) public {
     owner = msg.sender;
     pollDuration = _duration;
     pollEnd = block.timestamp + pollDuration;
