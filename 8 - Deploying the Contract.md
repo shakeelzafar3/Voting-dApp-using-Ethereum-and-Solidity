@@ -28,4 +28,9 @@ Voting.deployed().then(function(instance) { app = instance })
 ```
 Here `Voting` is the name of the variable that we created in the migration file. We retrieved a deployed instance of the contract with the deployed() function, and assigned it to an app variable inside the promise's callback function. 
 
-Now we can read the value of the candidate variable like this:
+Now we can check that the vote duration is allowed or not like this:
+```
+app.isActive()
+```
+
+Congratulations! You've just written your first smart contract, deployed to the blockchain, and retrieved some of its data.
