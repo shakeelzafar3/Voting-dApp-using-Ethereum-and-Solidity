@@ -70,4 +70,4 @@ function endPoll() public {
 }
 ```
 
-In this code, we're first checking to make sure that the person calling the function is the contract owner. We're also checking to make sure that the poll is still active. If both of those conditions are met, we'll set the 
+In this code, we're first checking to make sure that the person calling the function is the contract owner. We're also checking to make sure that the poll is still active. If both of those conditions are met, we'll set the `pollActive` to `false`.
