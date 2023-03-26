@@ -1,3 +1,4 @@
+Now its time to write code for html and see the changes on the screen. Go ahead and take these snippets of the code and paste in the `index.html`.
 ## Head tag
 ```html
 <head>
