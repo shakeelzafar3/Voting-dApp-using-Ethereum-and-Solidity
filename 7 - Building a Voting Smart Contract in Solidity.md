@@ -1,4 +1,4 @@
-In this tutorial, we'll be walking through the steps of building a simple voting smart contract in Solidity. This contract will allow users to vote on a simple yes/no question and display the results of the vote. Let's get started!
+In this lesson, we'll be walking through the steps of building a simple voting smart contract in Solidity. This contract will allow users to vote on a simple yes/no question and display the results of the vote. Let's get started!
 
 ## Step 1: Setting up the Contract
 The first thing we need to do is set up our contract. We'll start by defining our contract and setting up some basic variables:
@@ -71,3 +71,6 @@ function endPoll() public {
 ```
 
 In this code, we're first checking to make sure that the person calling the function is the contract owner. We're also checking to make sure that the poll is still active. If both of those conditions are met, we'll set the `pollActive` to `false`.
+
+
+In the [next lesson](https://github.com/shakeelzafar3/Voting-dApp-using-Ethereum-and-Solidity/blob/main/8%20-%20Deploying%20the%20Contract.md) we will cover how to deploy the contarct on the EVM and test a small function of the contract. 
