@@ -1,3 +1,4 @@
+Let's get introduced with Web3 and TruffleContract and how to use them to communicate with the Ethereum network and deploy smart contracts.
 ## Object Definition
 
 ```js
@@ -140,4 +141,4 @@ The deployed() function is provided by the truffle-contract library and returns 
 Overall, this function initializes the votingInstance property of the App object with the deployed instance of the Voting contract.
 
 
-We will move to next lesson for the detail of the other functions which are actuall responsibe of our functionalities. 
+We will move to [next lesson](https://github.com/shakeelzafar3/Voting-dApp-using-Ethereum-and-Solidity/blob/main/11%20-%20Writing%20app.js%20-%20II%20code.md) for the detail of the other functions which are actuall responsibe of our functionalities. 
