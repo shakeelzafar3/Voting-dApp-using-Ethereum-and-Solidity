@@ -30,4 +30,4 @@ Now let's start writing our smart contract! This smart contract will contain all
 ```bash
 touch contracts/Voting.sol
 ```
-Let's jump to write out smart contract that in [next lesson](https://github.com/shakeelzafar3/Voting-dApp-using-Ethereum-and-Solidity/blob/main/7%20-%20Building%20a%20Voting%20Smart%20Contract%20in%20Solidity.md).
+Let's jump to write our smart contract that in [next lesson](https://github.com/shakeelzafar3/Voting-dApp-using-Ethereum-and-Solidity/blob/main/7%20-%20Building%20a%20Voting%20Smart%20Contract%20in%20Solidity.md).
