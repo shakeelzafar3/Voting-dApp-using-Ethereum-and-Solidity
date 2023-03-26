@@ -1,3 +1,4 @@
+Let's understand the code for the backend of a voting dApp using Ethereum and Solidity, including starting the poll, casting the vote, updating the remaining time, and initializing the app using jQuery.
 ## Starting the Poll
 ```js
  startPoll: function() {
@@ -92,3 +93,6 @@ This code is using jQuery to execute a function when the page is fully loaded. T
 Inside the function, `$(window).load()` is used to execute a function when all page assets (images, scripts, etc.) are loaded. The enclosed function calls `App.init()`, which initializes the application by setting up Web3, connecting to the contract, and binding event listeners.
 
 Overall, this code ensures that the application is fully loaded and initialized before the user can interact with it.
+
+
+Hurray! We have successfully written the code for backend and now let's know how to run the application in the [next lesson](https://github.com/shakeelzafar3/Voting-dApp-using-Ethereum-and-Solidity/blob/main/12%20-%20Running%20the%20App.md).
