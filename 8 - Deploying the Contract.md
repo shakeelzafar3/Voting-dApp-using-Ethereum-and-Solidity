@@ -1,3 +1,4 @@
+Let's cover how to create a migration file to deploy a smart contract to the blockchain, assign numbers to migration files, execute migrations, open the Truffle console, retrieve the deployed smart contract, and check if vote duration is allowed.
 ## Creating a New Migration File
 Now that we have established the basic structure of the smart contract, let's proceed with deploying it to the blockchain. To achieve this, we will have to create a new file within the migrations directory. You can create this file from the command line by executing the following command from your project's root directory:
 ```bash
@@ -39,4 +40,4 @@ Now we can check that the vote duration is allowed or not like this:
 app.isActive()
 ```
 
-Congratulations! You've just written your first smart contract, deployed to the blockchain, and retrieved some of its data.
+Congratulations! You've just written your first smart contract, deployed to the blockchain, and retrieved some of its data, now let's try to write our client side application in the [next lesson](https://github.com/shakeelzafar3/Voting-dApp-using-Ethereum-and-Solidity/blob/main/9%20-%20Writing%20Html%20Code.md).
