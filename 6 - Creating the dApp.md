@@ -1,6 +1,6 @@
 
 
-The objective of this lesson is to create a project directory for our dApp and install the Pet Shop box. We will also learn about the directory structure of a Truffle project and start writing our smart contract.
+Let's create a project directory for our dApp and install the Pet Shop box. We will also learn about the directory structure of a Truffle project and start writing our smart contract.
 ## Create Project Directory and Install `pet-shop-box`
 Now let's create a project directory for our dApp in the command line like this:
 ```bash
