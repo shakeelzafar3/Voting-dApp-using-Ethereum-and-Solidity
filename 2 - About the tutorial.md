@@ -1,3 +1,4 @@
+Let's have an overview of who should take this tutorial, the prerequisites for starting the tutorial, and the learning outcomes that participants can expect to achieve by the end of the tutorial.
 ## Who should take this tutorial?
 This tutorial is ideal for beginners who are new to Ethereum and Solidity and want to learn how to build a simple dApp. It is also suitable for developers who want to gain a deeper understanding of how decentralized applications work on the Ethereum network. No prior experience with blockchain or smart contracts is necessary to follow along with this tutorial.
 ## Prerequisites
