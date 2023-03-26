@@ -109,3 +109,4 @@ Additionally, there is a paragraph with the ID "voteStatus" that displays the cu
 The second feature is "Tallying the results and displaying them for all to see". It displays the total number of Yes and No votes in two separate spans, "yesVotes" and "noVotes" respectively.
 The code also includes the necessary JavaScript libraries required to run the dApp, including jQuery, Bootstrap, web3, truffle-contract, and the app.js file which contains the logic for the dApp.
 
+Yes, we have done with the front end side, now let's create our backend in the [next lesson](https://github.com/shakeelzafar3/Voting-dApp-using-Ethereum-and-Solidity/blob/main/10%20-%20Writing%20app.js%20-%20I%20code.md).
