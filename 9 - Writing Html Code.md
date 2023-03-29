@@ -39,31 +39,31 @@ The `app.js` script is also loaded using the `script` tag. This script likely co
 	<hr>
 ```
 
-- The <body> tag: This tag is used to define the body section of the HTML document, which contains the visible content of the web page.
+- The `<body>` tag: This tag is used to define the body section of the HTML document, which contains the visible content of the web page.
 
-- The <h1> tag: This tag is used to define the heading of the web page, in this case "Voting dApp".
+- The `<h1>` tag: This tag is used to define the heading of the web page, in this case "Voting dApp".
 
-- The <div> tag: This tag is used to group together elements and apply styles to them as a group.
+- The `<div>` tag: This tag is used to group together elements and apply styles to them as a group.
 
-- The <h3> tag: This tag is used to define a sub-heading on the web page, in this case "Setting the duration of the voting period".
+- The `<h3>` tag: This tag is used to define a sub-heading on the web page, in this case "Setting the duration of the voting period".
 
-- The <p> tag: This tag is used to define a paragraph of text on the web page, in this case "Please enter the duration of the voting period (in seconds):".
+- The `<p>` tag: This tag is used to define a paragraph of text on the web page, in this case "Please enter the duration of the voting period (in seconds):".
 
-- The <input> tag: This tag is used to create an input field where the user can enter data, in this case the number of seconds for the voting period.
+- The `<input>` tag: This tag is used to create an input field where the user can enter data, in this case the number of seconds for the voting period.
 
-- The type="number" attribute: This attribute is used to specify that the input field should only accept numeric input.
+- The `type="number"` attribute: This attribute is used to specify that the input field should only accept numeric input.
 
-- The id="pollDuration" attribute: This attribute is used to give the input field a unique identifier, which can be used to access and manipulate its value using JavaScript.
+- The `id="pollDuration"` attribute: This attribute is used to give the input field a unique identifier, which can be used to access and manipulate its value using JavaScript.
 
-- The placeholder="Enter duration in seconds" attribute: This attribute is used to provide a hint to the user about what they should enter in the input field.
+- The `placeholder="Enter duration in seconds"` attribute: This attribute is used to provide a hint to the user about what they should enter in the input field.
 
-- The <button> tag: This tag is used to create a button on the web page.
+- The `<button>` tag: This tag is used to create a button on the web page.
 
-- The id="startPollBtn" attribute: This attribute is used to give the button a unique identifier, which can be used to access and manipulate it using JavaScript.
+- The `id="startPollBtn"` attribute: This attribute is used to give the button a unique identifier, which can be used to access and manipulate it using JavaScript.
 
-- The onclick="startPoll()" attribute: This attribute is used to specify that the startPoll() function should be called when the button is clicked.
+- The `onclick="startPoll()"` attribute: This attribute is used to specify that the startPoll() function should be called when the button is clicked.
 
-- The <hr> tag: This tag is used to create a horizontal line on the web page, to visually separate different sections of content.
+- The `<hr>` tag: This tag is used to create a horizontal line on the web page, to visually separate different sections of content.
  
  ## Allowing users to cast their votes during the voting period
   
@@ -81,7 +81,7 @@ The `app.js` script is also loaded using the `script` tag. This script likely co
   
 This code creates a section on the HTML page that allows users to cast their votes during the voting period. It includes two buttons with the IDs "yesBtn" and "noBtn" that allow users to cast their votes for "Yes" or "No". These buttons are initially disabled until the voting period begins. When a user clicks on one of the buttons, it triggers the "castVote()" function with the argument of "true" for the "Yes" button and "false" for the "No" button.
 
-Additionally, there is a paragraph with the ID "voteStatus" that displays the current vote status. This is also initially hidden and will only be displayed when the user casts their vote. The code is wrapped in a div tag for organization purposes and there is a horizontal rule (<hr>) element separating this section from the previous one.
+Additionally, there is a paragraph with the ID "voteStatus" that displays the current vote status. This is also initially hidden and will only be displayed when the user casts their vote. The code is wrapped in a div tag for organization purposes and there is a horizontal rule (`<hr>`) element separating this section from the previous one.
   
 ## Preventing users from voting after the voting period has ended
 ```html
