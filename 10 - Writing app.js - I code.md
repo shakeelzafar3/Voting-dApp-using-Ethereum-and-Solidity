@@ -60,7 +60,7 @@ Overall, this function checks if web3 is already defined and sets up a provider 
       App.contracts.Voting = TruffleContract(VotingArtifact);
       App.contracts.Voting.setProvider(App.web3Provider);
 
-      // Initialize the Ballot contract
+      // Initialize the Ballot contract -- We will discuss this later
       $.getJSON('Ballot.json', function(data) {
         const BallotArtifact = data;
         App.contracts.Ballot = TruffleContract(BallotArtifact);
